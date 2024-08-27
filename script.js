@@ -7,4 +7,14 @@ function burgerFunction() {
   }
 }
 
-import { sayHello } from "./sayHello"
+import { sayHello } from "./sayHello.js";
+
+
+sayHello();
+
+import { todoApplication } from "./todoApplication.js";
+
+const addTaskButton = document.querySelector("#addTaskButton");
+
+addTaskButton.addEventListener("click", todoApplication)
+
