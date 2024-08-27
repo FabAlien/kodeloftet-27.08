@@ -7,4 +7,4 @@ function burgerFunction() {
   }
 }
 
-import
+import { sayHello } from "./sayHello"
